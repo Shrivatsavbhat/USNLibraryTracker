@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="topbar">
+        <img src="{{ url_for('static', filename='nsamfgcn-logo.png') }}" alt="logo" class="logo">
+        <button class="logout-button">Log Out</button>
+    </div>
+    <div class="backgroundcontainer">
+        <div class="overlay"></div>
+        <div class="box-container">
+            <div class="radio-button">
+                <label><input type="radio" name = "role" value = "faculty"> Faculty</label>
+                <label><input type="radio" name = "role" value = "student"> Student</label>
+            </div>
+            <input type = "text" class = "input-box" placeholder = "Enter USN" required>
+            <button class = "login-button">Login</button>
+        </div>
+    </div>
+</body>
+</html>
+
