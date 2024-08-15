@@ -1,10 +1,7 @@
 # USNLibraryTracker
-
-
-Library Management System
 ==========================
 
-This is a simple Library Management System built using HTML, CSS, Python, Flask, and MySQL. 
+This is a simple USN Tacker for Library Management System built using HTML, CSS, Python, Flask, and MySQL. 
 The system allows students to log in using their University Serial Number (USN). 
 If the USN exists in the database, the system logs the login time and stores the USN in another table.
 
